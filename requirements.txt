@@ -1,0 +1,18 @@
+# 基本框架
+streamlit
+plotly
+
+# 常用科學計算套件
+numpy
+pandas
+scipy
+
+# 視覺化與繪圖
+matplotlib
+seaborn
+
+# 機器學習/數據處理 (可選)
+scikit-learn
+
+# 其他常見工具 (可依需求刪減)
+requests
