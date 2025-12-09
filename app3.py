@@ -45,10 +45,8 @@ class Config:
     DEFAULT_RANDOM_STATE = 42
     
     # HuggingFace Configuration (NEW)
-    HF_MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
+    HF_MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct" 
     HF_API_URL = f"https://api-inference.huggingface.co/models/{HF_MODEL_NAME}"
-
-
 
 
 # ============================================================
@@ -970,7 +968,7 @@ def main():
                     st.dataframe(metrics_df, use_container_width=True)
             
             # -----------------------------------------------------------------
-            # Cluster Statistics Table (Mean/Mode) - Modified Section
+            # Cluster Statistics Table (Mean/Mode)
             # -----------------------------------------------------------------
             st.divider()
             st.subheader("📋 各群組特徵統計 (Cluster Feature Statistics)")
