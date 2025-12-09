@@ -4,8 +4,9 @@ numpy
 scipy
 scikit-learn
 plotly
-google-genai
+huggingface_hub
 kmodes
 gower
 matplotlib
+
 
